@@ -9,4 +9,3 @@ def lister_livres():
 
 def rechercher_livre(titre):
     return [b for b in books if titre.lower() in b['titre'].lower()]
-# print assogb
