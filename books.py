@@ -9,4 +9,7 @@ def lister_livres():
 
 def rechercher_livre(titre):
     return [b for b in books if titre.lower() in b['titre'].lower()]
+<<<<<<< HEAD
     print("hello heloo helooo world")
+=======
+>>>>>>> 6dad4f33e035f296484bf23ec85c7d7238a04f69
